@@ -4,6 +4,8 @@
 
 Code Saviour is an application designed to help competitive programmers search for problems on Codeforces by name. It's a convenient solution for those who need to find specific problems quickly, acting as a Codeforces-question-search app.
 
+## Deployed App on Vercel
+ [Click Here](https://codesaviour.vercel.app/)
 ## Features
 
 - 🔍 **Search by Problem Name:** Easily find Codeforces problems by name, eliminating the hassle of manual searching.
@@ -51,7 +53,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Important Note About Environment Variable
 
-The environment variable is added for demonstration purposes and isn't actually required. To set up the project correctly, replace the following in `atoms.jsx`:
+The environment variable is added for demonstration purposes and isn't actually required. To set up the project correctly, replace the following in `src/atoms.jsx`:
 
 Change:
 ```javascript
