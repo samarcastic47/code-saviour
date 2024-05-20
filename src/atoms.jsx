@@ -8,7 +8,7 @@ export const problemsAtom = atom({
     key: 'problemAtom/default',
     get: async () => {
       try {
-        const response = await axios.get(import.meta.env.VITE_CODE_SAVIOUR_API_URL);
+        const response = await axios.get('/api/codeforces');
         return response.data.result.problems;
       } catch (error) {
         throw error;
